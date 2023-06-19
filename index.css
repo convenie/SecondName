@@ -1,3 +1,28 @@
 html{
-  color:gray;
+  color:white;
+  background-color: rgb(139, 139, 139);
+}
+h2{
+  text-align: center;
+}
+button {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	margin: auto;
+	font-weight: bold;
+	background-image: linear-gradient(to top left, rgb(0, 183, 255) 0%, rgb(0, 38, 255) 100%);
+	border-radius: 5%;
+	color: rgb(109, 109, 109);
+	border: 1px solid rgb(114, 114, 114);
+	text-shadow: 0 1px #fff;
+  box-shadow: 3px 3px 3px 3px #383838;
+}
+button:hover{
+  background:gray;
+  color:white;
+}
+div{
+  float:left;
 }
